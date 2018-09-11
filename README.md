@@ -19,6 +19,15 @@ The code has been tested with Python 3.6 on Ubuntu 16.04 LTS. The following Pyth
 - SimpleITK>=1.1.0
 - h5py>=2.8.0
 
+## Installation
+It is recommended to install the package in a separate virtual environment created with , e.g., [virtualenv](https://virtualenv.pypa.io/en/stable/) or [(mini)conda](https://conda.io/docs/user-guide/install/index.html).
+```console
+git clone https://github.com/IPMI-ICNS-UKE/gdl-fire-4d
+cd gdl-fire-4d
+pip install .
+```
+
+
 ## Basic Usage
 The following code snippet creates a GDLFire4D instance and starts a image registration.
 ```python
