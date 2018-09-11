@@ -42,18 +42,18 @@ gdl = GDLFire4D(weights='weights/weights_niftyreg.h5')
 # Load the mean and std matrices regarding the sagittal slabs
 # used for training the model.
 mean_x = np.load('norm/mean_x_niftyreg.npy')
-std_x = np.load('norm/std_x_niftyreg.npy')
+sd_x = np.load('norm/sd_x_niftyreg.npy')
 
 mean_y = np.load('norm/mean_y_niftyreg.npy')
-std_y = np.load('norm/std_y_niftyreg.npy')
+sd_y = np.load('norm/sd_y_niftyreg.npy')
 
 mean_z = np.load('norm/mean_z_niftyreg.npy')
-std_z = np.load('norm/std_z_niftyreg.npy')
+sd_z = np.load('norm/sd_z_niftyreg.npy')
 
 # Define the corresponding z-transform
-gdl.define_z_transform('x', mean_x, std_x)
-gdl.define_z_transform('y', mean_y, std_y)
-gdl.define_z_transform('z', mean_z, std_z)
+gdl.define_z_transform('x', mean_x, sd_x)
+gdl.define_z_transform('y', mean_y, sd_y)
+gdl.define_z_transform('z', mean_z, sd_z)
 
 # Load the fixed and moving image. The values should be in [-1024, 3071],
 # i.e. the common Hounsfield scale
