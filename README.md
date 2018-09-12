@@ -39,7 +39,7 @@ from gdlfire import GDLFire4D
 # with the passed weights file.
 gdl = GDLFire4D(weights='weights/weights_niftyreg.h5')
 
-# Load the mean and std matrices regarding the sagittal slabs
+# Load the mean and sd matrices regarding the sagittal slabs
 # used for training the model.
 mean_x = np.load('norm/mean_x_niftyreg.npy')
 sd_x = np.load('norm/sd_x_niftyreg.npy')
