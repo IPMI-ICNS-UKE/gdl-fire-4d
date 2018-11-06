@@ -3,12 +3,18 @@
 This repository contains the official code and model weights for the following MICCAI 2018 paper:
 
 ```
-@misc{SentkerMadestaWerner2018,
-    title        = {GDL-FIRE\textsuperscript{4D}: Deep Learning-based Fast 4D CT Image Registration},
-    author       = {Sentker, Thilo and Madesta, Frederic and Werner, Ren\'{e}},
-    year         = {2018},
-    booktitle    = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2018},
-    publisher    = {Springer International Publishing}}
+@inproceedings{SentkerMadestaWerner2018,
+    author="Sentker, Thilo and Madesta, Frederic and Werner, Ren{\'e}",
+    editor="Frangi, Alejandro F. and Schnabel, Julia A. and Davatzikos, Christos and Alberola-L{\'o}pez, Carlos and Fichtinger, Gabor",
+    title="GDL-FIRE{\$}{\$}^{\backslash}text {\{}4D{\}}{\$}{\$}: Deep Learning-Based Fast 4D CT Image Registration",
+    booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2018",
+    year="2018",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="765--773",
+    isbn="978-3-030-00928-1"
+}
+}
 ```
 
 ## Requirements
