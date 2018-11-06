@@ -14,7 +14,6 @@ This repository contains the official code and model weights for the following M
     pages="765--773",
     isbn="978-3-030-00928-1"
 }
-}
 ```
 
 ## Requirements
