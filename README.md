@@ -1,6 +1,6 @@
 ![gdl_fire_4d_logo](imgs/logo.png "GDL-FIRE4D")
 
-This repository contains the official code and model weights for the following MICCAI 2018 paper:
+This repository contains the official code and model weights for the following MICCAI 2018 [paper](https://rdcu.be/baQa3):
 
 ```
 @inproceedings{SentkerMadestaWerner2018,
