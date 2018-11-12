@@ -36,7 +36,7 @@ For downloading model weights (NiftyReg, plastimatch and VarReg) please see [her
 
 
 ## Basic Usage
-The following code snippet creates a GDLFire4D instance and starts a image registration.
+The following code snippet creates a GDLFire4D instance and starts an image registration.
 ```python
 import numpy as np
 import SimpleITK as sitk
