@@ -32,7 +32,7 @@ cd gdl-fire-4d
 pip install .
 ```
 
-For downloading model weights (NiftyReg, plastimatch and VarReg) please see [here](https://github.com/IPMI-ICNS-UKE/gdl-fire-4d/releases/latest).
+For downloading model weights and normalization factors (NiftyReg, plastimatch and VarReg) please see [here](https://github.com/IPMI-ICNS-UKE/gdl-fire-4d/releases/latest).
 
 
 ## Basic Usage
